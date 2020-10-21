@@ -1,0 +1,34 @@
+{
+  "name": "nutristy_trial",
+  "version": "1.0.0",
+  "description": "login_signin_user",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "shar",
+  "license": "ISC",
+  "dependencies": {
+    "ansi-styles": "^4.3.0",
+    "async": "^3.2.0",
+    "balanced-match": "^1.0.0",
+    "bcrypt": "^5.0.0",
+    "brace-expansion": "^2.0.0",
+    "chalk": "^4.1.0",
+    "color-convert": "^2.0.1",
+    "color-name": "^1.1.4",
+    "concat-map": "0.0.1",
+    "ejs": "^3.1.5",
+    "escape-string-regexp": "^4.0.0",
+    "express": "^4.17.1",
+    "express-session": "^1.17.1",
+    "filelist": "^1.0.1",
+    "has-flag": "^4.0.0",
+    "jake": "^10.8.2",
+    "minimatch": "^3.0.4",
+    "mongoose": "^5.10.9",
+    "passport": "^0.4.1",
+    "passport-local-mongoose": "^6.0.1",
+    "supports-color": "^7.2.0"
+  }
+}
