@@ -2,12 +2,8 @@
 <html> 
 <head> 
     <title> Signup Form</title> 
-          
-          
     <link rel="stylesheet" href= "https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">     
-          
-<link rel="stylesheet" type="text/css" href="public\style.css"> 
-          
+    <link rel="stylesheet" type="text/css" href="/stylesheet/style.css">       
 </head> 
 <body> 
     <header>
@@ -34,15 +30,37 @@
             <input type="text" id="username" name="username">
             
             <label for="email">Email</label>
-            <input type="text" name="email" id="email">
-            
+            <input type="email" name="email" id="email">
+
+            <label for="address">Address</label>
+            <textarea id="address" name="address" rows="4" cols="60">
+            </textarea>
+
+            <label for="phone">Mobile No</label>
+            <input type="text" name="phone" id="phone">
+
+            <label for="mealpref">Meal Preference</label>
+            <select name="mealpref" id="mealpref">
+                <option value="veg">Veg</option>
+                <option value="nonveg">Non-Veg</option>
+                <option value="vegan">Vegan</option>
+            </select>
+            <br><br>
+            <label for="allergy">Allergies</label>
+            <select name="allergy" id="allergy">
+                <option value="none">None</option>
+                <option value="gluten">Gluten</option>
+                <option value="seafood">Sea Food</option>
+                <option value="peanut">Peanut</option>
+            </select>
+            <br>
+            <br>
             <label for="password">Password</label>
             <input type="password" id="password" name="password">
             
-            <label for="phone">Mobile No</label>
-            <input type="text" name="phone" id="phone">
+            
     
-            <button>Submit</button>
+            <input type="submit" value="Submit"/>
             </form> 
                       
         </div> 
